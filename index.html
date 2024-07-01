@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Envelope + Letter (Open/Close on Click)</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Dear Person.</strong>
+                        <p>
+                            Mi táctica es mirarte, aprender como sos, quererte como sos. Mi táctica es hablarte, escucharte, construir con palabras un puente indestructible. Mi táctica es quedarme en tu recuerdo, no sé cómo ni sé con qué pretexto, pero quedarme en vos. Mi táctica es ser franco, y saber que sos franca, para que entre los dos no haya telón ni abismos. Mi estrategia es más profunda y simple: que un día cualquiera, no sé cómo ni sé con qué pretexto, por fin, me necesites.
+                        </p>
+                        .
+                        <p>
+                           .
+                        </p>
+                        <p>
+                            .                                                                                                                                                               
+                        <p>
+                              .      
+                              <p>
+                                .
+                             </p>                                           
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
